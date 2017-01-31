@@ -6,6 +6,7 @@ import traceback
 
 if __name__ == "__main__":
     while True:
+	print("First feature addition.")
         print("{}: Starting scrape cycle".format(time.ctime()))
         try:
             do_scrape()
